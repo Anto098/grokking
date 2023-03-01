@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5239b088-34e4-402d-b094-ab2a867a5988" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KrOGhRCIyq9cjy3OlCdriQgp89" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Grokking - my solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5239b088-34e4-402d-b094-ab2a867a5988" name="Changes" comment="" />
+      <created>1674729140487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674729140487</updated>
+      <workItem from="1674729151145" duration="4468000" />
+      <workItem from="1674815212573" duration="9201000" />
+      <workItem from="1674858365372" duration="22703000" />
+      <workItem from="1675014366277" duration="6699000" />
+      <workItem from="1675713561224" duration="13806000" />
+      <workItem from="1675964385850" duration="11518000" />
+      <workItem from="1676130066969" duration="24023000" />
+      <workItem from="1676322791396" duration="1390000" />
+      <workItem from="1676326060563" duration="178000" />
+      <workItem from="1676377332023" duration="6746000" />
+      <workItem from="1677322338708" duration="1945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__All_Paths_for__Sum__medium_.coverage" NAME="2. All Paths for  Sum (medium) Coverage Results" MODIFIED="1676383537785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8. Depth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Zigzag_Traversal__medium_.coverage" NAME="Zigzag Traversal (medium) Coverage Results" MODIFIED="1676197264319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__LinkedList_Cycle__easy_.coverage" NAME="1. LinkedList Cycle (easy) Coverage Results" MODIFIED="1674944195471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. Fast &amp; Slow Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Merge_Intervals__Medium_.coverage" NAME="1. Merge Intervals (Medium) Coverage Results" MODIFIED="1675777176399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. Merge Intervals" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$4__Middle_of_the_LinkedList__easy_.coverage" NAME="4. Middle of the LinkedList (easy) Coverage Results" MODIFIED="1675024809734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. Fast &amp; Slow Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__Reverse_Level_Order_Traversal__easy_.coverage" NAME="2. Reverse Level Order Traversal (easy) Coverage Results" MODIFIED="1676196346494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$3__Happy_Number__medium_.coverage" NAME="3. Happy Number (medium) Coverage Results" MODIFIED="1675023800748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. Fast &amp; Slow Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Reverse_a_LinkedList__easy_.coverage" NAME="1. Reverse a LinkedList (easy) Coverage Results" MODIFIED="1676137634570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. In-place Reversal of a LinkedList" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__Remove_Duplicates__easy_.coverage" NAME="2. Remove Duplicates (easy) Coverage Results" MODIFIED="1674916883684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$7__Connect_Level_Order_Siblings__medium_.coverage" NAME="7. Connect Level Order Siblings (medium) Coverage Results" MODIFIED="1676326165666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Cyclic_Sort__easy_.coverage" NAME="1. Cyclic Sort (easy) Coverage Results" MODIFIED="1676045968611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. Cyclic Sort" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__Reverse_a_Sub_list__medium_.coverage" NAME="2. Reverse a Sub-list (medium) Coverage Results" MODIFIED="1676190468683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. In-place Reversal of a LinkedList" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$4__Fruits_into_baskets__medium_.coverage" NAME="4. Fruits into baskets (medium) Coverage Results" MODIFIED="1674818848790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Sliding Window" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Insert_Interval__medium_.coverage" NAME="Insert Interval (medium) Coverage Results" MODIFIED="1675779155753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. Merge Intervals" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$3__Squaring_a_Sorted_Array__easy_.coverage" NAME="3. Squaring a Sorted Array (easy) Coverage Results" MODIFIED="1674918845087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$4__Find_the_Duplicate_Number__easy_.coverage" NAME="4. Find the Duplicate Number (easy) Coverage Results" MODIFIED="1676134593674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. Cyclic Sort" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Maximum_Sum_Subarray_of_Size_K__easy_.coverage" NAME="1. Maximum Sum Subarray of Size K (easy) Coverage Results" MODIFIED="1674730709611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Sliding Window" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$4__Triple_Sum_to_Zero__medium_.coverage" NAME="4. Triple Sum to Zero (medium) Coverage Results" MODIFIED="1674926370770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$3__Find_all_Missing_Numbers__easy_.coverage" NAME="3. Find all Missing Numbers (easy) Coverage Results" MODIFIED="1676133673810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. Cyclic Sort" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Level_Averages_in_a_Binary_Tree__easy_.coverage" NAME="Level Averages in a Binary Tree (easy) Coverage Results" MODIFIED="1676199476244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Pair_with_Target_Sum__easy_.coverage" NAME="1. Pair with Target Sum (easy) Coverage Results" MODIFIED="1674915464739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$3__Zigzag_Traversal__medium_.coverage" NAME="3. Zigzag Traversal (medium) Coverage Results" MODIFIED="1676198193051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Unknown_nb_1__Path_With_Given_Sequence__medium_.coverage" NAME="Unknown nb 1. Path With Given Sequence (medium) Coverage Results" MODIFIED="1677322922541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8. Depth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__Find_the_Missing_Number__easy_.coverage" NAME="2. Find the Missing Number (easy) Coverage Results" MODIFIED="1676056850085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. Cyclic Sort" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$main.coverage" NAME="main Coverage Results" MODIFIED="1676326159611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$3__Reverse_every_K_element_Sub_list__medium_.coverage" NAME="3. Reverse every K-element Sub-list (medium) Coverage Results" MODIFIED="1676193088131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. In-place Reversal of a LinkedList" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Intervals_Intersection__medium_.coverage" NAME="Intervals Intersection (medium) Coverage Results" MODIFIED="1675785479948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. Merge Intervals" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$6__Level_Order_Successor__easy_.coverage" NAME="6. Level Order Successor (easy) Coverage Results" MODIFIED="1676207303745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$5__Minimum_Depth_of__a_Binary_Tree__easy_.coverage" NAME="5. Minimum Depth of  a Binary Tree (easy) Coverage Results" MODIFIED="1676204045998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$5__Triplet_Sum_Close_to_Target__medium_.coverage" NAME="5. Triplet Sum Close to Target (medium) Coverage Results" MODIFIED="1674929139611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Binary_Tree_Path_Sum__easy_.coverage" NAME="1. Binary Tree Path Sum (easy) Coverage Results" MODIFIED="1676379071375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8. Depth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$2__Start_of_the_LinkedList_Cycle__medium_.coverage" NAME="2. Start of the LinkedList Cycle (medium) Coverage Results" MODIFIED="1675018597892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. Fast &amp; Slow Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$6__Triplets_with_Smaller_sum__medium_.coverage" NAME="6. Triplets with Smaller sum (medium) Coverage Results" MODIFIED="1674941810308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2. Pattern Two Pointers" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$1__Binary_Tree_Level_Order_Traversal__easy_.coverage" NAME="1. Binary Tree Level Order Traversal (easy) Coverage Results" MODIFIED="1676195420778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Tree Breadth First Search" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Smallest_Subarray_with_a_given_sum__easy_.coverage" NAME="Smallest Subarray with a given sum (easy) Coverage Results" MODIFIED="1674733072490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Sliding Window" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$4__Conflicting_Appointments__medium_.coverage" NAME="4. Conflicting Appointments (medium) Coverage Results" MODIFIED="1675786446006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. Merge Intervals" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$Longest_Substring_with_K_Distinct_Characters__medium_.coverage" NAME="Longest Substring with K Distinct Characters (medium) Coverage Results" MODIFIED="1674817697918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Sliding Window" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$5__Find_all_the_Duplicate_Numbers__easy_.coverage" NAME="5. Find all the Duplicate Numbers (easy) Coverage Results" MODIFIED="1676135097500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5. Cyclic Sort" />
+    <SUITE FILE_PATH="coverage/Grokking___my_solutions$5__No_repeat_substring__hard_.coverage" NAME="5. No-repeat substring (hard) Coverage Results" MODIFIED="1674855140773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Sliding Window" />
+  </component>
+</project>
