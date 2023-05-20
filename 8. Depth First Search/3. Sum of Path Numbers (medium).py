@@ -8,19 +8,28 @@ class TreeNode:
 def find_sum_of_path_numbers(root):
     paths = []
     _find_sum_of_path_numbers(root, [], paths)
-    return sum(paths)
+    return sum([int(''.join([str(n) for n in nums])) for nums in paths])
 
 
 def _find_sum_of_path_numbers(root, path, paths):
-    pass
+    if root is None:
+        return
+
+    path.append(root.val)
+    if not root.left and not root.right:
+        paths.append(path.copy())
+    else:
+        _find_sum_of_path_numbers(root.left, path, paths)
+        _find_sum_of_path_numbers(root.right, path, paths)
+
+    path.pop(-1)
 
 
 if __name__ == "__main__":
-    root = TreeNode(12)
-    root.left = TreeNode(7)
+    root = TreeNode(1)
+    root.left = TreeNode(0)
     root.right = TreeNode(1)
-    root.left.left = TreeNode(4)
-    root.right.left = TreeNode(10)
+    root.left.left = TreeNode(1)
+    root.right.left = TreeNode(6)
     root.right.right = TreeNode(5)
-    s = 23
-    print(f"Tree paths with sum {s}: {find_sum_of_path_numbers(root)}")
+    print(f"Total sum of path numbers: {find_sum_of_path_numbers(root)}")
