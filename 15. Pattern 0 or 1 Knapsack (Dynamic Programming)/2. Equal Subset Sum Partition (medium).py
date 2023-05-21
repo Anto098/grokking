@@ -10,7 +10,7 @@ def can_partition(nums):
     for i in range(n):
         dp[i][0] = True
         if i >= 2:
-            dp[0][i] = False
+            dp[0][i] = True if nums[i] == i else False
 
     for i in range(1, n):
         for _s in range(1, half_s + 1):
