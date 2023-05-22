@@ -9,7 +9,7 @@ def has_path(root, sum):
     if root is None or sum < 0:
         return False
     sum -= root.val
-    if sum == 0 and not root.left and not root.right:
+    if sum == 0 and not (root.left or root.right):
         return True
     return has_path(root.left, sum) or has_path(root.right, sum)
 

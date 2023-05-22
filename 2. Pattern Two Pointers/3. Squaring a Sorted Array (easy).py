@@ -1,17 +1,16 @@
 def make_squares(arr):
-    start = 0
-    end = len(arr)-1
-    new_list = []
-
+    arr = [i ** 2 for i in arr]
+    start, end = 0, len(arr) - 1
+    new_arr = []
     while start <= end:
-        if abs(arr[end]) > abs(arr[start]):
-            new_list.append(arr[end] ** 2)
+        if arr[start] <= arr[end]:
+            new_arr.append(arr[end])
             end -= 1
         else:
-            new_list.append(arr[start] ** 2)
+            new_arr.append(arr[start])
             start += 1
 
-    return new_list[::-1]
+    return new_arr[::-1]
 
 
 if __name__ == "__main__":

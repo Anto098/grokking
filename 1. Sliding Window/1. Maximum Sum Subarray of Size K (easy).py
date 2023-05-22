@@ -1,14 +1,11 @@
 def max_sub_array_of_size_k(k, arr):
-    _max = -1
     _sum = 0
-    start_idx = 0
-    for end in range(len(arr)):
-        _sum += arr[end]
-        if end >= k - 1:
-            if _sum > _max:
-                _max = _sum
-            _sum -= arr[start_idx]
-            start_idx += 1
+    _max = -1
+    for i in range(len(arr)):
+        _sum += arr[i]
+        if i >= k:
+            _sum -= arr[i - k]
+            _max = max(_max, _sum)
 
     return _max
 

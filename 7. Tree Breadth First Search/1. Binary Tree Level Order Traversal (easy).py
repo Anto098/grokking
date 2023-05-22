@@ -21,6 +21,20 @@ def traverse(root):
         prev = temp
     return list(map(lambda l: [item.val for item in l], result))
 
+def traverse_v2(root):
+    result = [[root.val]]
+    current_level = [root]
+    while current_level:
+        for elem in current_level:
+            next_level = []
+            next_level.extend([n for n in [elem.left, elem.right] if n])
+
+        if next_level:
+            result.append([elem.val for elem in next_level])
+        current_level = next_level
+
+    return result
+
 
 if __name__ == "__main__":
     root = TreeNode(12)
@@ -30,3 +44,4 @@ if __name__ == "__main__":
     root.right.left = TreeNode(10)
     root.right.right = TreeNode(5)
     print(f"Level order traversal: {traverse(root)}")
+    print(f"Level order traversal: {traverse_v2(root)}")

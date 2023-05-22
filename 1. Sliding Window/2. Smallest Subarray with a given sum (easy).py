@@ -3,18 +3,19 @@ import math
 
 def smallest_subarray_with_given_sum(s, arr):
     _min = math.inf
+    p1, p2 = 0, 0
     _sum = 0
-    start = 0
-    for end in range(len(arr)):
-        _sum += arr[end]
+    n = len(arr)
+    while p1 <= p2 and p2 < n:
+        _sum += arr[p2]
         while _sum >= s:
-            curr_len = end - start + 1
-            if curr_len < _min:
-                _min = curr_len
-            _sum -= arr[start]
-            start += 1
+            _min = min((p2 - p1) + 1, _min)
+            _sum -= arr[p1]
+            p1 += 1
 
-    return _min if _min != math.inf else 0
+        p2 += 1
+
+    return _min
 
 
 if __name__ == "__main__":
