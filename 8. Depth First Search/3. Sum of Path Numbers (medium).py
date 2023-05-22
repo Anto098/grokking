@@ -22,7 +22,7 @@ def _find_sum_of_path_numbers(root, path, paths):
         _find_sum_of_path_numbers(root.left, path, paths)
         _find_sum_of_path_numbers(root.right, path, paths)
 
-    path.pop(-1)
+    path.pop()
 
 
 if __name__ == "__main__":

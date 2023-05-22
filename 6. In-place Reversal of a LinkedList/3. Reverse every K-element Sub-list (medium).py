@@ -13,6 +13,7 @@ class Node:
             temp = temp.next
         print()
 
+# Both of those are gross but hopefully you find one of them easier to read
 
 def reverse_every_k_elements(head, k):
     dragging, mid = None, head
@@ -38,6 +39,31 @@ def reverse_every_k_elements(head, k):
             outer_beginning.next = inner_ending
 
         dragging = inner_beginning  # inner beginning, which is now right before mid
+
+    return head
+
+def reverse_every_k_elements_v2(head, k):
+    # this assumes that the value of the nodes corresponds to their index
+    prev, curr = None, head
+
+    while True:
+        outer_start, inner_start = prev, curr
+        while curr.value % k != 0 and curr.next:
+            _next = curr.next
+            curr.next = prev
+            prev, curr = curr, _next
+
+        _next = curr.next
+        curr.next = prev
+        if inner_start.value == 1:
+            head = curr
+        else:
+            outer_start.next = curr
+        inner_start.next = _next
+        if not (_next and _next.next):
+            break
+        prev = inner_start
+        curr = _next
 
     return head
 
