@@ -24,6 +24,28 @@ def _find_paths(root, sum, path, paths):
     return _find_paths(root.left, sum, path, paths=[]) + _find_paths(root.right, sum, path[:h], paths=[])
 
 
+def find_paths_v2(root, sum):
+    all_paths = []
+    find_paths_recursive(root, sum, paths=all_paths, path=[])
+    return all_paths
+
+
+def find_paths_recursive(root, sum, paths, path):
+    # instead of returning the result, we save it in a variable that's created outside the function
+    # saves us all the problems from saving results correctly
+    if root is None:
+        return
+    sum -= root.val
+    path.append(root.val)
+    if sum == 0 and not (root.left or root.right):
+        paths.append(path.copy())
+    else:
+        find_paths_recursive(root.left, sum, paths, path)
+        find_paths_recursive(root.right, sum, paths, path)
+
+    path.pop(-1)
+
+
 if __name__ == "__main__":
     root = TreeNode(12)
     root.left = TreeNode(7)
@@ -33,3 +55,4 @@ if __name__ == "__main__":
     root.right.right = TreeNode(5)
     sum = 23
     print(f"Tree paths with sum {sum}: {find_paths(root, sum)}")
+    print(f"Tree paths with sum {sum}: {find_paths_v2(root, sum)}")
